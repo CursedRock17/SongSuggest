@@ -1,0 +1,140 @@
+.NavBar {
+  text-align: center;
+  background-color: black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.textBig {
+  height: 75px;
+  color: #08cd0d;
+  font-size: 40px;
+  text-shadow: 0.5px 0.5px 3px white;
+}
+
+.normalGreenText {
+  height: 50px;
+  color: #08cd0d;
+  font-size: 30px;
+  text-shadow: 0.5px 0.5px 3px white;
+}
+
+.roundButton {
+  text-align: center;
+  background-color: #08cd0d;
+  color: black;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  font-size: 15px;
+  text-shadow: 0.2px 0.2px;
+}
+
+.even {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+
+.plusButton {
+  text-align: center;
+  background-color: #08cd0d;
+  color: black;
+  height: 10px;
+  width: 35px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-shadow: 0.2px 0.2px;
+  padding-bottom: 50px;
+}
+
+.pushDown {
+  padding-top: 30px;
+}
+
+.downFifteen {
+  padding-top: 15px;
+}
+
+.upThirty {
+  padding-bottom: 30px;
+}
+
+.centerDropButton {
+  text-align: center;
+}
+
+.leftThirty {
+  padding-right: 30px;
+}
+
+.searchBox {
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.middle {
+  background-color: #cd08c8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 15px;
+  row-gap: 25px;
+}
+
+.mainList {
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,255,115,1) 0%, rgba(255,0,159,1) 100%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.recommend {
+  text-align: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(73,62,71,1) 8%, rgba(239,26,196,1) 68%, rgba(54,49,52,1) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.recommendCard {
+  text-align: center;
+  text-shadow: 0.2px 0.2px;
+  background-color: white;
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px
+}
+
+.recommendAnchor{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: black;
+}
+
+.mappedList {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 15px;
+  row-gap: 25px;
+}
